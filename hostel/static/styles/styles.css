@@ -1,0 +1,73 @@
+body{
+    /* background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80'); */
+    background-size:cover;
+    padding: 5% 0;  
+    background-color: red;
+}
+
+.form-align {
+    float: left;
+}
+
+form{
+    /* background-color: aliceblue; */
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    margin-bottom: 50px;
+    padding: 100px;
+    border: #006ee6 1px solid;
+    
+
+    /* font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;  
+    font-size: 19px;    */
+
+
+}
+.title{
+    color:#006ee6;
+    margin-top: 50px;
+    padding-top: 30px;
+        
+}
+
+.details{
+    margin: 60px;
+    
+}
+
+input{
+    margin-left:10px;
+    border-radius: 5px;     
+    
+}
+
+
+
+.submit input{
+        margin-bottom: 40px;
+        width: 200px;
+        height: 40px;
+        letter-spacing: 3px;
+        font-size: medium;
+        color:#e6e6e6;
+        border-radius: 30px;
+        background-image: url(/crash/html/images/regisback.jpg);
+        background-position: left;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+    padding: 100px 0;
+    /* margin: 5; */
+    }
+
+    form {
+        padding: 0;
+        width: 80%;
+        border: none
+    }
+}
